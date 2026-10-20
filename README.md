@@ -117,7 +117,8 @@ The tests cover password hashing, token signing and validation, anonymous access
 
 GitHub Actions restores, builds, and tests the solution for pushes and pull requests targeting `main` or `part-2`. Add a screenshot of a successful run here after the workflow runs in the GitHub repository:
 
-`[CI evidence screenshot pending]`
+<img width="680" height="275" alt="image" src="https://github.com/user-attachments/assets/1c682c97-5e6a-4ddb-a198-99bd26256122" />
+
 
 ## Part 1 references
 
