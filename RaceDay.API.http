@@ -1,0 +1,31 @@
+@baseUrl = http://localhost:5228
+@token = paste-jwt-token-here
+
+### Public events
+GET {{baseUrl}}/api/events
+Accept: application/json
+
+### Register a Participant
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+
+{
+  "firstName": "Jamie",
+  "lastName": "Runner",
+  "email": "jamie@example.test",
+  "password": "RaceDay!Demo123"
+}
+
+### Login and copy the token from the response
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "jamie@example.test",
+  "password": "RaceDay!Demo123"
+}
+
+### View the authenticated profile
+GET {{baseUrl}}/api/users/me
+Authorization: Bearer {{token}}
+Accept: application/json

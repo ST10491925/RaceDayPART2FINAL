@@ -1,0 +1,42 @@
+﻿# SQL Server & SSMS artifacts
+*.mdf
+*.ldf
+*.bak
+*.log
+*.sqllog
+*.sqlsettings
+*.sqlproj.user
+*.dbmdl
+
+# SSMS / SSDT / Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+.history/
+
+# OS files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+
+# Secrets / environment
+.env
+.env.local
+secrets.json
+
+# Build outputs / temp
+bin/
+obj/
+*.tmp
+*.temp
+
+# Misc
+*.pid
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
