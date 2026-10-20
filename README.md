@@ -116,8 +116,8 @@ The tests cover password hashing, token signing and validation, anonymous access
 ## Continuous integration
 
 GitHub Actions restores, builds, and tests the solution for pushes and pull requests targeting `main` or `part-2`. Add a screenshot of a successful run here after the workflow runs in the GitHub repository:
+ <img width="686" height="189" alt="image" src="https://github.com/user-attachments/assets/cd5774b1-2e9a-4601-9169-b89cbd469d37" />
 
-<img width="680" height="275" alt="image" src="https://github.com/user-attachments/assets/1c682c97-5e6a-4ddb-a198-99bd26256122" />
 
 
 ## Part 1 references
